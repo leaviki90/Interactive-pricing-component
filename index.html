@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+    maximum-scale=1"
+    />
+
+    <meta name="author" content="Violeta Petrović" />
+    <meta name="description" content="Interactive pricing component" />
+    <meta name="keywords" content="html, css,javascript, responsive" />
+
+    <!-- IOS compatibility -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="Interactive pricing component"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      href="apple-icon-144x144.png"
+    />
+    <!--Android compatibility-->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="aplication-name" content="Interactive pricing component" />
+    <link rel="icon" type="image/png" href="android-icon-192x192.png" />
+    <link rel="icon" type="image/png" href="favicon-32x32.png" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Interactive pricing component</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Simple, traffic-based pricing</h1>
+        <p class="subtitle">
+          Sign-up for our 30-day trial. No credit card required.
+        </p>
+      </header>
+      <main>
+        <div class="content">
+          <div class="flex-wrapper1">
+            <h2>100k pageviews</h2>
+            <div class="slider">
+              <input
+                type="range"
+                id="slider-input"
+                min="0"
+                max="4"
+                value="2"
+                step="1"
+              />
+              <div class="slider-thumb">
+                <img src="/css/images/icon-slider.svg" alt="icon-slider" />
+              </div>
+              <div class="slider-progress"></div>
+            </div>
+            <div class="price">
+              <span id="monthlyPrice" class="first-span">$16.00</span>
+              <span class="second-span">/ month</span>
+            </div>
+          </div>
+          <div class="flex-wrapper2">
+            <p>Monthly Billing</p>
+            <div class="switch">
+              <input type="checkbox" name="" id="" />
+            </div>
+            <p>Yearly Billing</p>
+            <span>-25%</span>
+            <span class="d-none">25% discount</span>
+          </div>
+          <div class="flex-wrapper3">
+            <div class="info">
+              <div class="mb10">
+                <img src="css/images/icon-check.svg" alt="icon-check" />
+                <p>Unlimited websites</p>
+              </div>
+              <div class="mb11">
+                <img src="css/images/icon-check.svg" alt="icon-check" />
+                <p>100% data ownership</p>
+              </div>
+              <div>
+                <img src="css/images/icon-check.svg" alt="icon-check" />
+                <p>Email reports</p>
+              </div>
+            </div>
+            <button>Start my trial</button>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
