@@ -91,6 +91,5 @@ sliderInput.addEventListener("input", () => {
   checkInputChecked();
 });
 switchInput.addEventListener("input", () => {
-  console.log("mrs");
   checkInputChecked();
 });
