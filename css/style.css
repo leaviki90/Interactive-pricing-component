@@ -21,8 +21,9 @@ body {
   min-height: 100vh;
   background-image: url("/css/images/pattern-circles.svg"),
     url("/css/images/bg-pattern.svg");
-  background-position: 50% 9%, 0% -17%;
+  background-position: 50% 9%, 0% 0%;
   background-repeat: no-repeat;
+  background-size: 146px 145px, 100% 50%;
 }
 
 img {
@@ -348,7 +349,7 @@ button:hover {
 }
 @media (min-width: 1440px) {
   body {
-    background-position: 50% 14%, 0% 0%;
+    background-position: 50% 22%, 0% 0%;
   }
   header {
     margin-bottom: 91px;
